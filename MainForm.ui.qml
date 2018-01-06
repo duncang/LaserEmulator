@@ -23,7 +23,11 @@ Rectangle {
             width: 146
             height: 30
             text: qsTr("SEND")
-            font.pixelSize: 12
+            verticalAlignment: Text.AlignVCenter
+            horizontalAlignment: Text.AlignHCenter
+            style: Text.Normal
+            font.pixelSize: 8
+            font.family: "Tahoma"
         }
     }
 
